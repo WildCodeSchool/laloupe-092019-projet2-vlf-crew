@@ -1,0 +1,19 @@
+{
+  "name": "laloupe-092019-projet2-vlf-crew",
+  "version": "1.0.0",
+  "description": "La tête dans les étoiles !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/laloupe-092019-projet2-vlf-crew.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/laloupe-092019-projet2-vlf-crew/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/laloupe-092019-projet2-vlf-crew#readme"
+}
