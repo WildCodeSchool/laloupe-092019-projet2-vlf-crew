@@ -1,0 +1,98 @@
+img{
+    position: relative;
+    right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+    object-fit: cover;
+}
+
+form{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top:0;
+    left:0;
+    z-index: 100;
+    margin-top: 20vw;
+    font-size: 2vw;
+   
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 2vw 0;
+
+}
+
+label{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+button{
+    height: 3vw;
+    width: 15vw;
+    border-radius: 25%;
+}
+
+h1{
+    font-size: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw;
+}
+
+h2{
+    font-size: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+
+h3{
+    font-size: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+
+.formulaire {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:0;
+    left:0;
+    z-index: 100;
+    margin-top: 20vw;
+    font-size: 2vw;
+   
+}
+
+.formulaire div{
+    flex-direction: column;
+}
+
+.formulaire label{
+    margin: 2vw;
+}
+
+.send-btn{
+    width: 10vw;
+    height: 50px;
+    background-color: rgba(44, 189, 44, 0.856);;
+}
+
+#message{
+    height: 25vw;
+}
