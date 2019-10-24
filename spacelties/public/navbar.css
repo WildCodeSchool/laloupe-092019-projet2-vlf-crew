@@ -14,6 +14,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 3;
+    font-family: 'Play';
 }
 
 .header ul {
@@ -35,7 +36,7 @@ a {
     background-color: #4b4a4a;
 }
 
-.header .logo {
+.header .brandlogo {
     display: block;
     float: left;
     padding: 10px 20px 0 15px;
@@ -47,8 +48,6 @@ a {
     font-size: 1.5em;
     padding: 15px 10px;
     text-decoration: none;
-    font-family: 'Cosmos';
-    src: url('https://www.dafont.com/cosmos.font')
 }
 
 /* menu */
@@ -57,13 +56,13 @@ a {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    text-align: center;
 }
 
 /* menu icon */
 
 .header .menu-icon {
     cursor: pointer;
-    display: inline-block;
     float: right;
     padding: 28px 20px;
     position: relative;
@@ -71,7 +70,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-    background: #333;
+    background: #fff;
     display: block;
     height: 2px;
     position: relative;
@@ -81,7 +80,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #333;
+    background: #fff;
     content: '';
     display: block;
     height: 100%;
@@ -125,9 +124,9 @@ a {
     top: 0;
 }
 
-/* 48em = 768px */
+/*points de bascule*/
 
-@media (min-width: 48em) {
+@media (min-width: 992px) {
     .header li {
         float: left;
     }
@@ -142,4 +141,24 @@ a {
     .header .menu-icon {
         display: none;
     }
+}
+
+@media (max-width: 575.98px) {
+
+    .header .menu a {
+        font-size: 2em;
+    }
+    
+    .header .brand {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:991.98px) {
+
+    .header .menu a {
+        font-size: 2em;
+    }
+
 }
