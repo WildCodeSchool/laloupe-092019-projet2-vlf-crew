@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link type="text/css" rel="stylesheet" href="../src/index.css">
-    <title>React App</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+</head>
+
   <body>
-    <div id="root"></div>
+    
+  <header>
+      <nav>
+          <header class="header">
+              <a href="index.html" class="brandlogo"><img src="./logo.png" height="35px" alt="pizzalogo"></a>
+              <a href="index.html" class="brand">Spacelties</a>
+              <input class="menu-btn" type="checkbox" id="menu-btn" />
+              <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+              <ul class="menu">
+                  <li><a href="#choose">I Want to Choose</a></li>
+                  <li><a href="#surprise">Surprise Me !</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </header>
+      </nav>
+  </header> 
+  
+  <div class="cont">
+    <video autoplay muted loop class="video">
+      <source src="video/galaxy.mp4" type="video/mp4">
+    </video>
+  </div>
 
+  <div class="head column lg-12 md-12 sm-12">
 
-    <footer class="footer row dsk-12 tab-12 mob-12">
+    <div class="sm-10 div-h1">
+      <h1>
+        Catchphrase
+      </h1>
+    </div>
 
-      <div class="link dsk-4 tab-4 mob-12">
+    <div class='div-button lg-12 md-12 sm-12'>
+      <button>Get Started</button>
+    </div>
+
+  </div>
+
+    <footer class="footer row lg-12 md-12 sm-12">
+
+      <div class="link lg-4 md-4 sm-12">
         <a href="./liens-footer/about-you.html">About us</a>
         <a href="./liens-footer/formulaire.html">Contact us</a>
       </div>
 
-      <div class="logos-sociaux dsk-4 tab-4 mob-12">
+      <div class="logos-sociaux lg-4 md-4 sm-12">
         <div>
           <a href="./liens-footer/facebook.html"><img src="./images/facebook-new.png" alt="facebook_link"></a>
         </div>
@@ -43,11 +70,13 @@
         </div>
       </div>
 
-      <div class="link dsk-4 tab-4 mob-12">        
+      <div class="link lg-4 md-4 sm-12">        
         <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">Privacy policy</a>
         <a href="https://wireframepro.mockflow.com/view/Ma9a887ccd95fde904e4d4a3afde8059e1571129538939#/page/9ccc61562a394bce85c608c85a6d5a4b">Customer Support</a>
       </div>
 
     </footer>
+    
+    <div id="root"></div>
   </body>
 </html>
