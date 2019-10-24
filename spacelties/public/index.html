@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
+             
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="logo192.png" />
-  <link rel="stylesheet" href="../src/index.css" <!-- manifest.json provides metadata used when your web app is
-    installed on a user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
-
-  <title>React App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+  
+  <header>
+      <nav>
+          <header class="header">
+              <a href="index.html" class="brandlogo"><img src="./logo.png" height="35px" alt="pizzalogo"></a>
+              <a href="index.html" class="brand">Spacelties</a>
+              <input class="menu-btn" type="checkbox" id="menu-btn" />
+              <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+              <ul class="menu">
+                  <li><a href="#choose">I Want to Choose</a></li>
+                  <li><a href="#surprise">Surprise Me !</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </header>
+      </nav>
+  </header> 
+  
   <div class="cont">
     <video autoplay muted loop class="video">
       <source src="video/galaxy.mp4" type="video/mp4">
