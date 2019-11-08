@@ -1,0 +1,8 @@
+.card {
+    border-radius: 0;
+    color: white;
+}
+
+.space-evn {
+    justify-content: space-evenly;
+}

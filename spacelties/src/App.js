@@ -7,6 +7,7 @@ import Easy from './components/Accueil/liens-footer/Easy';
 import Future from './components/Accueil/liens-footer/Future';
 import Snakes from './components/Accueil/liens-footer/Snakes';
 import Trajetoria from './components/Accueil/liens-footer/Trajetoria';
+import ChoicePage from './components/ChoicePage/ChoicePage'
 import { Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
           <Route path="/Future" component={Future} />
           <Route path="/Snakes" component={Snakes} />
           <Route path="/Trajetoria" component={Trajetoria} />
+          <Route path="/ChoicePage" component={ChoicePage} />
         </Switch>
       </div>
     )
