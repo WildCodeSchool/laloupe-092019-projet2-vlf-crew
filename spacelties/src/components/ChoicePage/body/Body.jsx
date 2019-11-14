@@ -55,14 +55,14 @@ class Body extends React.Component {
                             <Accordion.Collapse eventKey="3">
                                 <Card.Body className="row space-evn">
                                     <div className="column">
-                                        <label><input type="checkbox" /> Destination</label>
-                                        <label><input type="checkbox" /> Destination</label>
-                                        <label><input type="checkbox" /> Destination</label>
+                                        <label><input type="checkbox" /> Hepler</label>
+                                        <label><input type="checkbox" /> NGC 6872</label>
+                                        <label><input type="checkbox" /> NGC 5195</label>
                                     </div>
                                     <div className="column">
-                                        <label><input type="checkbox" /> Destination</label>
-                                        <label><input type="checkbox" /> Destination</label>
-                                        <label><input type="checkbox" /> Destination</label>
+                                        <label><input type="checkbox" /> IC 4970</label>
+                                        <label><input type="checkbox" /> IC 2204</label>
+                                        <label><input type="checkbox" /> NGC 3077</label>
                                     </div>
                                 </Card.Body>
                             </Accordion.Collapse>
