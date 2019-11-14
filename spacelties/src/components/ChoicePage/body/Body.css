@@ -39,6 +39,11 @@ button {
     cursor: url("https://i.imgur.com/bu4bVH6.png") 4 12, auto;
 }
 
+.accord label {
+    cursor: pointer;
+    
+}
+
 .accord {
     height: 70%;
     width: 75%;
@@ -69,7 +74,7 @@ button {
     width: 100%;
     padding: 10px;
     font-size: 26px;
-    background-color: rgb(105, 41, 33);
+    background-color: rgb(148, 50, 37);
     color: white;
 }
 
