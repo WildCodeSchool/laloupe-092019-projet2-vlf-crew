@@ -17,16 +17,14 @@ class Body extends React.Component {
                             <Accordion.Collapse eventKey="1">
                                 <Card.Body className="row space-evn">
                                     <div className="column">
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
+                                        <label><input type="checkbox" /> Traditional Specialties</label>
+                                        <label><input type="checkbox" /> Awesome Burgers</label>
+                                        <label><input type="checkbox" /> Meat Orgy</label>
                                     </div>
                                     <div className="column">
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
-                                        <label><input type="checkbox" /> Food</label>
+                                        <label><input type="checkbox" /> Vegan 3000</label>
+                                        <label><input type="checkbox" /> Insect Lovers</label>
+                                        <label><input type="checkbox" /> Fish Barbecue</label>
                                     </div>
                                 </Card.Body>
                             </Accordion.Collapse>
@@ -38,16 +36,14 @@ class Body extends React.Component {
                             <Accordion.Collapse eventKey="2">
                                 <Card.Body className="row space-evn">
                                     <div className="column">
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
+                                        <label><input type="checkbox" /> Vintage Wine</label>
+                                        <label><input type="checkbox" /> Space Cocktails</label>
+                                        <label><input type="checkbox" /> Fruits Juices</label>
                                     </div>
                                     <div className="column">
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
-                                        <label><input type="checkbox" /> Drinks</label>
+                                        <label><input type="checkbox" /> Curious Liquors</label>
+                                        <label><input type="checkbox" /> Old School Sodas</label>
+                                        <label><input type="checkbox" /> Cloud Water</label>
                                     </div>
                                 </Card.Body>
                             </Accordion.Collapse>
@@ -62,10 +58,8 @@ class Body extends React.Component {
                                         <label><input type="checkbox" /> Destination</label>
                                         <label><input type="checkbox" /> Destination</label>
                                         <label><input type="checkbox" /> Destination</label>
-                                        <label><input type="checkbox" /> Destination</label>
                                     </div>
                                     <div className="column">
-                                        <label><input type="checkbox" /> Destination</label>
                                         <label><input type="checkbox" /> Destination</label>
                                         <label><input type="checkbox" /> Destination</label>
                                         <label><input type="checkbox" /> Destination</label>

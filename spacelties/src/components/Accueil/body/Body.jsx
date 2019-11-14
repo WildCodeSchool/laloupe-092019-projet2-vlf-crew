@@ -19,7 +19,7 @@ class Body extends React.Component {
                     </div>
 
                     <div className='div-button lg-12 md-12 sm-12'>
-                        <a href="/ChoicePage"><button>Get Started</button></a>
+                        <a href="/ChoicePage"><button className="glow-on-hover">Get Started</button></a>
                     </div>
 
                 </div>
@@ -33,7 +33,7 @@ class Body extends React.Component {
                             <h2>Food :</h2>
 
                             <span className="column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam atque odio quod quia alias, quasi perferendis ver</p>
+                                <p>Wanna treat yourself well with a good meal ? Choose amongst several food specialties and eat the sweetest meats, fishes, vegetables from outer space.</p>
                             </span>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ class Body extends React.Component {
                             <h2>Drinks :</h2>
 
                             <span className="column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam atque odio quod quia alias, quasi perferendis ver</p>
+                                <p>Wine or liquor lover ? More into cocktails ? Hesitate no more and discover the most complex flavors.</p>
                             </span>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ class Body extends React.Component {
                         <div className="textbox lg-12 md-7 sm-4">
                             <h2>Destination :</h2>
                             <span className="column">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam atque odio quod quia alias, quasi perferendis ver</p>
+                                <p>Wanna travel to a galaxy or a planet in particular ? Good idea ! Let’s find out what is on the menu !</p>
                             </span>
                         </div>
                     </div>

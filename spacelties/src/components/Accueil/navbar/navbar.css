@@ -64,6 +64,11 @@ a {
     max-height: 0;
     transition: max-height .2s ease-out;
     text-align: center;
+    z-index: 100000;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /* menu icon */

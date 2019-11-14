@@ -19,7 +19,7 @@ button {
 
 .card-header {
     height: 100%;
-    font-size: 36px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ button {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-image: url("https://i.imgur.com/FnFAtdG.png");
+    background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
     cursor: url("https://i.imgur.com/bu4bVH6.png") 4 12, auto;
 }
 
@@ -68,8 +68,9 @@ button {
     border: 0;
     width: 100%;
     padding: 10px;
-    font-size: 24px;
-    background-color: rgb(62, 166, 255);
+    font-size: 26px;
+    background-color: rgb(105, 41, 33);
+    color: white;
 }
 
 .divbut a {
