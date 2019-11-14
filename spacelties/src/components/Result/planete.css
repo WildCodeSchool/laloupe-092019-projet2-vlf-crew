@@ -27,12 +27,12 @@
   
   .earth {
     position: absolute;
-      top: calc(30% - 100px);
-      left: calc(40% - 100px);
+      top: calc(30% - 7vw);
+      left: calc(45% - 7vw);
   }
    .earth img {
-      height: 30vw;
-      width: 30vw;
+      height: 29vw;
+      width: 29vw;
       position: absolute;
       top: 0;
       left: 0;
@@ -45,8 +45,9 @@
       opacity: 0;
       padding: 1em;
       transform: scale(0.8);
-      transform-origin: 0 0;
-      width: 40vw;
+      transform-origin: 2vw -25vw;
+      width: 33vw;
+      padding-left: 2vw;
   }
    .more-info h1 {
         margin: 0 0 5vw;
@@ -55,39 +56,40 @@
   
       h1, li {
         font-family: 'Space Mono', monospace;
+        opacity: 0;
       }
   
   .moon-container {
     position: absolute;
-      top: calc(50% - 150px);
-      left: calc(50% - 50px);
+      top: calc(50% - 12vw);
+      left: calc(50% - 5vw);
   }
   
   .moon {
     animation: spin 20s linear infinite;
     background: none;
-    width: 150px;
-    height: 150px;
+    width: 11vw;
+    height: 11vw;
     pointer-events: none;
-    transform-origin: 100px;
+    transform-origin: 7vw;
   }
    .moon img {
-      transform: translateX(200px) translateY(200px);
+      transform: translateX(17vw) translateY(17vw);
       width: 6vw;
     }
   
   
   .moon-v {
-    animation: spin 20s linear infinite;
+    animation: spin 25s linear infinite;
     background: none;
-    width: 50px;
-    height: 50px;
+    width: 11vw;
+    height: 3vw;
     pointer-events: none;
-    transform-origin: 50px;
+    transform-origin: 7vw;
   }
    .moon-v img {
-      transform: translateX(200px) translateY(200px);
-      width: 50px;
+      transform: translateX(17vw) translateY(25vw);
+      width: 2vw;
     }
   
   
@@ -97,13 +99,13 @@
   }
   
   .earth:hover img, .earth.active img {
-    transform: translateX(-250px) translateY(-100px) scale(0.5);
+    transform: translateX(-15vw) translateY(-1vw) scale(0.6);
   }
   .earth:hover ~ .moon-container, .earth.active ~ .moon-container {
-    transform: translateX(-75px) translateY(-75px) scale(0.4);
+    transform: translateX(-15vw) translateY(-7vw) scale(0.4);
   }
   .earth:hover ~ .moon-container img, .earth.active ~ .moon-container img {
-    transform: translateX(-140px) translateY(-140px);
+    transform: translateX(-15vw) translateY(-25vw);
   }
   .earth:hover .more-info, .earth.active .more-info {
     opacity: 1;

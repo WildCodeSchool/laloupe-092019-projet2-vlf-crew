@@ -73,8 +73,8 @@ const imagePlanet = [
         moon1: "https://stickeroid.com/uploads/pic/full-pngmart/thumb/stickeroid_5bf54aebe6804.png",
         moon2: "https://pngimage.net/wp-content/uploads/2018/06/plan%C3%A8te-png-3.png",
         moon3: "https://www.etincelles-astro.fr/wp-content/uploads/2018/06/venus-11022_1280.png",
-        moon4: "https://i.ya-webdesign.com/images/fantasy-planet-png-7.png",
-        moon5: "https://i.ya-webdesign.com/images/fantasy-planet-png-7.png",
+        moon4: "",
+        moon5: "",
     },
     {
         image: "https://apod.nasa.gov/apod/image/1909/SpiderFly_Spitzer2Mass_4165.jpg",
